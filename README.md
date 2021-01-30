@@ -16,4 +16,4 @@ Content hierarchy
 
 ## Examples
 
-[Examples](https://sanjosolutions.github.io/web-design-principles/index.html)
+[Examples](https://sanjosolutions.github.io/web-design-principles/)
