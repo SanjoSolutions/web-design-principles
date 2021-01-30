@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web design principles applied</title>
+  <style>
+    figure {
+      margin: 0;
+    }
+
+    .groups {
+
+    }
+
+    .group {
+      display: inline-block;
+    }
+
+    .group-a {
+      margin-right: 2rem;
+    }
+
+    .group-b {
+
+    }
+
+    .element {
+      display: inline-block;
+      box-sizing: border-box;
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid black;
+      margin-right: 0.5rem;
+    }
+
+    .group > .element:last-child {
+      margin-right: 0;
+    }
+
+    .a {
+      font-size: 3em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Web design principles applied</h1>
+  <h2>Example 1</h2>
+  <figure>
+    <div class="groups">
+      <div class="group group-a">
+        <div class="element"></div>
+        <div class="element"></div>
+      </div>
+      <div class="group group-b">
+        <div class="element"></div>
+        <div class="element"></div>
+      </div>
+    </div>
+    <figcaption>
+      White space and grouping demonstrated
+    </figcaption>
+  </figure>
+
+  <h2>Example 2</h2>
+  <figure>
+    <span class="a">T</span>ext
+    <figcaption>
+      Hierarchy demonstrated. The first letter gets a higher hierarchy order assigned, to mark the beginning of a text.
+    </figcaption>
+  </figure>
+</body>
+</html>
